@@ -16,7 +16,7 @@ usability and flexibility. Some practical examples of this are:
    makes rendering less efficient, but at the same time less objects are
    rendered, so efficiency overall improves.
 -  Configuring the properties of every material for every object that
-   needs to be renderer is also slow. To solve this, objects are sorted
+   needs to be rendered is also slow. To solve this, objects are sorted
    by material to reduce the costs, but at the same time sorting has a
    cost.
 -  In 3D physics a similar situation happens. The best algorithms to
